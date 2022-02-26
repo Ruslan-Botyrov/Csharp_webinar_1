@@ -7,5 +7,5 @@ Console.Write("Введите число B");
 string inputNumberB = Console.ReadLine();
 int B = int.Parse(inputNumberB);
 
-if (A>B) Console.Write(A);
-else Console.Write(B);
+if (A>B) Console.Write($"Max = {A}");
+else Console.Write($"Max = {B}");
