@@ -12,7 +12,6 @@ string inputNumberC = Console.ReadLine();
 int C = int.Parse(inputNumberC);
 
 int Maximum = A;
-if (A>Maximum) Maximum = A;
 if (B>Maximum) Maximum = B;
 if (C>Maximum) Maximum = C;
 
